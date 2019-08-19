@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\C#_Projects\ChatApplication\_publish</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="application/app.js">
+      <publishTime>08/15/2019 16:08:08</publishTime>
+    </File>
+    <File Include="application/controllers/appController.js">
+      <publishTime>08/16/2019 12:39:39</publishTime>
+    </File>
+    <File Include="application/factories/signalRFactory.js">
+      <publishTime>08/15/2019 15:51:21</publishTime>
+    </File>
+    <File Include="Authorization/Login.aspx">
+      <publishTime>08/16/2019 12:04:53</publishTime>
+    </File>
+    <File Include="Authorization/Register.aspx">
+      <publishTime>08/16/2019 12:55:09</publishTime>
+    </File>
+    <File Include="bin/amd64/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/amd64/Microsoft.VC90.CRT/msvcr90.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/amd64/Microsoft.VC90.CRT/README_ENU.txt">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceca40.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlcecompact40.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceer40EN.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceme40.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlceqp40.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/amd64/sqlcese40.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/Castle.Core.dll">
+      <publishTime>04/05/2019 01:50:26</publishTime>
+    </File>
+    <File Include="bin/ChatApplication.dll">
+      <publishTime>08/16/2019 15:50:59</publishTime>
+    </File>
+    <File Include="bin/ChatApplication.pdb">
+      <publishTime>08/16/2019 15:50:59</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:24</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:24</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:21:22</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:24</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:50</publishTime>
+    </File>
+    <File Include="bin/cs/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:44</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:21:22</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:24</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:24</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:20:34</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:22:34</publishTime>
+    </File>
+    <File Include="bin/de/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>10/23/2017 13:15:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>10/23/2017 13:15:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServerCompact.dll">
+      <publishTime>10/23/2017 13:15:16</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:58</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:21:00</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:22:46</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/es/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:44</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:54</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:24</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:58</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:58</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:21:22</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:58</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:52</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:20:50</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:24</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/fr/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:21:24</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:58</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:24</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:20:58</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:52</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:48</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:54</publishTime>
+    </File>
+    <File Include="bin/it/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:58</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:58</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:20:50</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:44</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:58</publishTime>
+    </File>
+    <File Include="bin/ja/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:20:54</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:24</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:20:54</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:24</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/ko/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:21:24</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>03/08/2017 19:26:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>04/24/2018 12:47:38</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>04/24/2018 12:47:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>04/24/2018 12:47:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.dll">
+      <publishTime>04/03/2019 00:30:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.Core.pdb">
+      <publishTime>04/03/2019 07:19:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.dll">
+      <publishTime>04/03/2019 00:30:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.SignalR.SystemWeb.pdb">
+      <publishTime>04/03/2019 07:20:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Clients.ActiveDirectory.dll">
+      <publishTime>08/14/2019 16:24:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Clients.ActiveDirectory.pdb">
+      <publishTime>08/14/2019 16:24:34</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.JsonWebTokens.dll">
+      <publishTime>06/24/2019 19:50:48</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Logging.dll">
+      <publishTime>06/24/2019 19:52:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.IdentityModel.Tokens.dll">
+      <publishTime>06/24/2019 19:55:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>01/18/2019 20:50:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>01/18/2019 20:50:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>01/18/2019 20:50:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>01/18/2019 20:51:10</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>01/18/2019 20:51:00</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Build.Client.dll">
+      <publishTime>06/23/2019 14:19:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Build.Common.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Build2.WebApi.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Client.dll">
+      <publishTime>06/23/2019 14:20:58</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Common.dll">
+      <publishTime>06/23/2019 14:21:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Core.WebApi.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Dashboards.WebApi.dll">
+      <publishTime>06/23/2019 14:19:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.DeleteTeamProject.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Diff.dll">
+      <publishTime>06/23/2019 14:19:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Discussion.Client.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.DistributedTask.Common.Contracts.dll">
+      <publishTime>06/23/2019 14:19:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Git.Client.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Lab.Client.dll">
+      <publishTime>06/23/2019 14:19:44</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Lab.Common.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Lab.TestIntegration.Client.dll">
+      <publishTime>06/23/2019 14:19:40</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.dll">
+      <publishTime>06/23/2019 14:19:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Policy.WebApi.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.ProjectManagement.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.SharePointReporting.Integration.dll">
+      <publishTime>06/23/2019 14:20:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.SourceControl.WebApi.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Test.WebApi.dll">
+      <publishTime>06/23/2019 14:19:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.TestImpact.Client.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.TestManagement.Client.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.TestManagement.Common.dll">
+      <publishTime>06/23/2019 14:19:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.TestManagement.WebApi.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.VersionControl.Client.dll">
+      <publishTime>06/23/2019 14:19:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.VersionControl.Common.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.VersionControl.Common.Integration.dll">
+      <publishTime>06/23/2019 14:22:06</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Wiki.WebApi.dll">
+      <publishTime>06/23/2019 14:19:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.Work.WebApi.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Client.DataStoreLoader.dll">
+      <publishTime>06/23/2019 14:21:02</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Client.dll">
+      <publishTime>06/23/2019 14:21:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.dll">
+      <publishTime>06/23/2019 14:21:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Common.dll">
+      <publishTime>06/23/2019 14:21:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Process.WebApi.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.Proxy.dll">
+      <publishTime>06/23/2019 14:21:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.TeamFoundation.WorkItemTracking.WebApi.dll">
+      <publishTime>06/23/2019 14:19:42</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.Client.Interactive.dll">
+      <publishTime>06/23/2019 14:21:30</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.Common.dll">
+      <publishTime>06/23/2019 14:21:28</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.TestManagement.TestPlanning.WebApi.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.TestResults.WebApi.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/Microsoft.VisualStudio.Services.WebApi.dll">
+      <publishTime>06/23/2019 14:21:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 12:48:56</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/27/2012 14:00:52</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:44</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:54</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:20:58</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:46</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:50</publishTime>
+    </File>
+    <File Include="bin/pl/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:21:00</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:26</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:20:50</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:52</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:46</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/pt-BR/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:52</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:21:24</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/ru/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:20:54</publishTime>
+    </File>
+    <File Include="bin/System.Data.SqlServerCe.dll">
+      <publishTime>08/08/2012 18:02:00</publishTime>
+    </File>
+    <File Include="bin/System.IdentityModel.Tokens.Jwt.dll">
+      <publishTime>06/24/2019 19:49:42</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/28/2018 13:00:36</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/28/2018 13:01:00</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:24</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:44</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:20:16</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:44</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:48</publishTime>
+    </File>
+    <File Include="bin/tr/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:21:22</publishTime>
+    </File>
+    <File Include="bin/x86/Microsoft.VC90.CRT/Microsoft.VC90.CRT.manifest">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/x86/Microsoft.VC90.CRT/msvcr90.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/x86/Microsoft.VC90.CRT/README_ENU.txt">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceca40.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/x86/sqlcecompact40.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceer40EN.dll">
+      <publishTime>08/15/2019 22:22:16</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceme40.dll">
+      <publishTime>08/15/2019 22:22:17</publishTime>
+    </File>
+    <File Include="bin/x86/sqlceqp40.dll">
+      <publishTime>08/15/2019 22:22:17</publishTime>
+    </File>
+    <File Include="bin/x86/sqlcese40.dll">
+      <publishTime>08/15/2019 22:22:17</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:52</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:21:00</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:50</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:16</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:58</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:20:54</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:54</publishTime>
+    </File>
+    <File Include="bin/zh-Hans/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:21:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Build.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Build.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:56</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Core.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Dashboards.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Discussion.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:56</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Lab.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:14</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Lab.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Lab.TestIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:20:34</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.Lab.WorkflowIntegration.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.SharePointReporting.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:54</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.TestImpact.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.TestManagement.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:12</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.VersionControl.Common.Integration.resources.dll">
+      <publishTime>06/23/2019 14:19:48</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.VersionControl.Common.resources.dll">
+      <publishTime>06/23/2019 14:19:18</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Client.QueryLanguage.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Client.resources.dll">
+      <publishTime>06/23/2019 14:19:20</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:52</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.TeamFoundation.WorkItemTracking.Proxy.resources.dll">
+      <publishTime>06/23/2019 14:21:22</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.VisualStudio.Services.Client.Interactive.resources.dll">
+      <publishTime>06/23/2019 14:21:20</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.VisualStudio.Services.Common.resources.dll">
+      <publishTime>06/23/2019 14:20:46</publishTime>
+    </File>
+    <File Include="bin/zh-Hant/Microsoft.VisualStudio.Services.WebApi.resources.dll">
+      <publishTime>06/23/2019 14:21:00</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css">
+      <publishTime>08/15/2019 17:28:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.css.map">
+      <publishTime>08/15/2019 17:28:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css">
+      <publishTime>08/15/2019 17:28:13</publishTime>
+    </File>
+    <File Include="Content/bootstrap-grid.min.css.map">
+      <publishTime>08/15/2019 17:28:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css">
+      <publishTime>08/15/2019 17:28:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.css.map">
+      <publishTime>08/15/2019 17:28:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css">
+      <publishTime>08/15/2019 17:28:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap-reboot.min.css.map">
+      <publishTime>08/15/2019 17:28:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>08/15/2019 17:28:12</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>08/15/2019 17:28:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>08/15/2019 17:28:11</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>08/15/2019 17:28:10</publishTime>
+    </File>
+    <File Include="Scripts/angular-mocks.js">
+      <publishTime>08/15/2019 15:36:43</publishTime>
+    </File>
+    <File Include="Scripts/angular.js">
+      <publishTime>08/15/2019 15:36:43</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js">
+      <publishTime>08/15/2019 15:36:43</publishTime>
+    </File>
+    <File Include="Scripts/angular.min.js.map">
+      <publishTime>08/15/2019 15:36:43</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js">
+      <publishTime>08/15/2019 17:28:09</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.js.map">
+      <publishTime>08/15/2019 17:28:08</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js">
+      <publishTime>08/15/2019 17:28:07</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.bundle.min.js.map">
+      <publishTime>08/15/2019 17:28:06</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>08/15/2019 17:28:05</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js.map">
+      <publishTime>08/15/2019 17:28:05</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>08/15/2019 17:28:04</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js.map">
+      <publishTime>08/15/2019 17:28:02</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js">
+      <publishTime>08/15/2019 17:29:14</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.js.map">
+      <publishTime>08/15/2019 17:29:14</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js">
+      <publishTime>08/15/2019 17:29:14</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper-utils.min.js.map">
+      <publishTime>08/15/2019 17:29:14</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js">
+      <publishTime>08/15/2019 17:29:14</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.js.map">
+      <publishTime>08/15/2019 17:29:14</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js">
+      <publishTime>08/15/2019 17:29:14</publishTime>
+    </File>
+    <File Include="Scripts/esm/popper.min.js.map">
+      <publishTime>08/15/2019 17:29:13</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>08/15/2019 15:33:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>08/15/2019 15:33:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>08/15/2019 15:33:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>08/15/2019 15:33:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>08/15/2019 15:33:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>08/15/2019 15:33:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.4.1.js">
+      <publishTime>08/15/2019 15:33:23</publishTime>
+    </File>
+    <File Include="Scripts/jquery.signalR-2.4.1.min.js">
+      <publishTime>08/15/2019 15:33:23</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js">
+      <publishTime>08/15/2019 17:29:11</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.js.map">
+      <publishTime>08/15/2019 17:29:11</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js">
+      <publishTime>08/15/2019 17:29:11</publishTime>
+    </File>
+    <File Include="Scripts/popper-utils.min.js.map">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/popper.js">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/popper.js.map">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/popper.min.js.map">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/README.md">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.js.map">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper-utils.min.js.map">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.js.map">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js">
+      <publishTime>08/15/2019 17:29:10</publishTime>
+    </File>
+    <File Include="Scripts/umd/popper.min.js.map">
+      <publishTime>08/15/2019 17:29:09</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>08/16/2019 15:45:11</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>08/16/2019 14:51:26</publishTime>
+    </File>
+    <File Include="Views/_Layout.cshtml">
+      <publishTime>08/15/2019 21:48:58</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>08/16/2019 15:51:00</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

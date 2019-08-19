@@ -1,0 +1,45 @@
+﻿@using ChatApplication.ViewModels;
+@using ChatApplication.Services;
+
+@{
+
+    Layout = "~/Views/_Layout.cshtml";
+    var userName = HttpContext.Current.User.Identity.Name;
+
+    var model = new ChatViewModel()
+    {
+        UserName = userName,
+        ChatLogs = DbLogService.GetLogData()
+    };
+
+    
+}
+
+<div class="container" style="border:1px solid gray; border-radius:10px">
+    <div class="row" style="min-height:400px;max-height:400px;overflow-y:scroll; padding:10px">
+        <ul class="list-group">
+            @foreach (var item in model.ChatLogs)
+            {
+                <li class="">
+                    <small>@item.Time</small> <b>@item.UserName</b> : @item.UserMessage
+                </li>
+            }
+            <li ng-repeat="item in messages" class="">
+                <small ng-bind="item.time"></small> <b ng-bind="item.name"></b> : {{item.message}}
+            </li>
+        </ul>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="input-group">
+            <div class="col-sm-1">
+                <input id="name-input" class="form-control-plaintext" type="text" value="@model.UserName" ng-init="user.name='@model.UserName'" ng-model="user.name" disabled />
+            </div>
+
+            <input type="text" placeholder="Type your message here" class="form-control" ng-model="user.message" />
+            <div class="input-group-append">
+                <button class="btn btn-primary" ng-click="send()">send</button>
+            </div>
+        </div>
+    </div>
+</div>
+

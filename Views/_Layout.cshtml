@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html ng-app="app" ng-controller="ctrl">
+<head>
+    <title>Live Chat</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/Content/bootstrap-grid.css" />
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/jquery.signalR-2.4.1.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+    <script src="~/application/app.js"></script>
+    <script src="~/application/factories/signalRFactory.js"></script>
+    <script src="~/application/controllers/appController.js"></script>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+
+</body>
+
+</html>
